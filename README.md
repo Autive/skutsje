@@ -14,9 +14,9 @@ Six selected directions (narrowed down from twelve). Open `index.html` to compar
 | `variant-3-op-het-water.html` | Op het water | Cinematic. Full-bleed photo hero with a floating agenda card overlapping it. |
 | `variant-4-diptych.html` | Diptych | Split-screen: fixed identity/photo panel left, scrolling agenda + news right. |
 | `variant-5-clubhuis.html` | Clubhûs | Heraldic sports-club identity: crest, fixtures list, squad (Oswald condensed). |
-| `variant-6-fris.html` | Fris | Light & modern: airy whitespace, big photography, soft rounded shapes, friendly. |
+| `variant-6-blauwdruk.html` | Blauwdruk | Structured mono grid: hard borders, monospace, technical/zine aesthetic (formerly "Raster"). |
 
-Display fonts vary per variant for distinct feel: Anton (Poster), Oswald (Clubhûs), Inter (Fris), Archivo (rest). The gallery `index.html` uses uniform cards and carries Autive presenter branding.
+Display fonts vary per variant for distinct feel: Anton (Poster), Oswald (Clubhûs), IBM Plex Mono (Blauwdruk), Archivo (rest). The gallery `index.html` uses uniform cards and carries Autive presenter branding.
 
 Live at **https://skutsje.autive.dev** (see [skutsje-hosting] notes). Earlier directions removed in this round: Wedstrijdcentrale, Helder, Logboek, Tijdlijn, Op de kaart, Wimpels.
 
