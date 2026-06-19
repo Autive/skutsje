@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="nl" class="antialiased">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oeral Thús · Helder</title>
+  <meta name="description" content="Het Jouster skûtsje Oeral Thús. Agenda, nieuws en het SKS skûtsjesilen 2026, overzichtelijk bij elkaar.">
+  <link rel="preconnect" href="https://rsms.me">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --font-sans: "InterVariable", ui-sans-serif, system-ui, sans-serif;
+      --font-sans--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      --font-display: "InterVariable", sans-serif;
+      --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+      --color-paper: oklch(0.995 0.002 250);
+      --color-sky: oklch(0.965 0.015 240);
+      --color-sky-2: oklch(0.93 0.028 240);
+      --color-ink: oklch(0.22 0.035 252);
+      --color-blue: oklch(0.50 0.14 250);
+      --color-blue-deep: oklch(0.31 0.08 252);
+      --color-blue-night: oklch(0.21 0.05 254);
+      --color-mist: oklch(0.53 0.025 252);
+      --color-rule: oklch(0.91 0.012 250);
+      --color-orange: oklch(0.67 0.20 41);
+      --color-orange-2: oklch(0.60 0.19 38);
+    }
+    @utility eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.6875rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body class="bg-(--color-sky) text-(--color-ink) font-sans">
+<div class="isolate">
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-30 border-b border-(--color-rule) bg-(--color-paper)/85 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+      <a href="#" aria-label="Homepage" class="flex items-center"><img src="assets/logo.png" alt="Oeral Thús, Jouster Skûtsje" class="h-8 w-auto"></a>
+      <nav class="hidden items-center gap-x-8 lg:flex" aria-label="Hoofdmenu">
+        <a href="#agenda" class="text-sm font-medium text-(--color-mist) hover:text-(--color-ink)">Agenda</a>
+        <a href="#nieuws" class="text-sm font-medium text-(--color-mist) hover:text-(--color-ink)">Nieuws</a>
+        <a href="#schip" class="text-sm font-medium text-(--color-mist) hover:text-(--color-ink)">Over het schip</a>
+        <a href="#" class="text-sm font-medium text-(--color-mist) hover:text-(--color-ink)">Sponsoring</a>
+        <a href="#" class="text-sm font-medium text-(--color-mist) hover:text-(--color-ink)">Club van 100</a>
+      </nav>
+      <div class="flex items-center gap-x-4">
+        <div class="hidden items-center gap-x-1.5 font-mono text-xs text-(--color-mist) sm:flex"><span class="font-medium text-(--color-ink)">NL</span><span aria-hidden="true">/</span><a href="#" class="hover:text-(--color-ink)">FY</a></div>
+        <a href="#" class="inline-flex items-center rounded-full bg-(--color-blue) px-4 py-2 text-sm font-semibold text-white hover:bg-(--color-blue-deep) focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-blue)">Vaar mee</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="mx-auto max-w-7xl px-6 pt-12 pb-8 lg:px-8">
+    <div class="relative overflow-hidden rounded-3xl bg-(--color-blue-night)">
+      <img src="assets/news-kolk.jpeg" alt="Het skûtsje Oeral Thús op het water in Joure" class="absolute inset-0 size-full object-cover opacity-55">
+      <div aria-hidden="true" class="absolute inset-0 bg-linear-to-tr from-(--color-blue-night) via-(--color-blue-night)/65 to-transparent"></div>
+      <div class="relative px-7 py-16 sm:px-12 sm:py-24">
+        <span class="inline-flex items-center gap-x-2 rounded-full bg-white/10 px-3 py-1 font-mono text-xs tracking-wide text-white ring-1 ring-white/20"><span class="size-1.5 rounded-full bg-(--color-orange)"></span>SKS Skûtsjesilen 2026</span>
+        <h1 class="mt-6 max-w-[16ch] text-5xl/[1] font-semibold tracking-tight text-balance text-white sm:text-7xl/[0.98]">Oeral Thús, het skûtsje van Joure.</h1>
+        <p class="mt-6 max-w-[52ch] text-lg/8 text-pretty text-white/80">Honderd jaar Fries zeilerfgoed, volledig op windkracht. Volg de wedstrijden en het nieuws van ons skûtsje.</p>
+        <div class="mt-9 flex flex-wrap items-center gap-x-4 gap-y-3">
+          <a href="#agenda" class="inline-flex items-center gap-x-2 rounded-full bg-(--color-orange) px-5 py-3 text-sm font-semibold text-white hover:bg-(--color-orange-2) focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-orange)">Bekijk de agenda
+            <svg viewBox="0 0 16 16" class="size-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 8h10m0 0L9 4m4 4L9 12"/></svg>
+          </a>
+          <a href="#schip" class="inline-flex items-center rounded-full bg-white/10 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/25 hover:bg-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Over het schip</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENDA + NIEUWS SIDE BY SIDE -->
+  <section class="mx-auto max-w-7xl px-6 py-8 lg:px-8">
+    <div class="grid gap-6 lg:grid-cols-2">
+
+      <!-- AGENDA CARD -->
+      <div id="agenda" class="flex flex-col rounded-3xl bg-(--color-paper) p-7 ring-1 ring-(--color-rule) sm:p-8">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-x-3">
+            <span class="flex size-9 items-center justify-center rounded-full bg-(--color-blue)/10"><svg viewBox="0 0 16 16" class="size-4 stroke-(--color-blue)" fill="none" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="3" width="11" height="10.5" rx="1.5"/><path d="M2.5 6h11M5.5 1.5v2M10.5 1.5v2"/></svg></span>
+            <h2 class="text-xl font-semibold tracking-tight text-(--color-ink)">Agenda 2026</h2>
+          </div>
+          <span class="rounded-full bg-(--color-orange)/12 px-2.5 py-1 font-mono text-xs text-(--color-orange-2)">SKS 18&ndash;31 jul</span>
+        </div>
+
+        <div class="mt-5 rounded-2xl bg-(--color-sky) p-4">
+          <p class="font-mono text-xs tracking-wide text-(--color-mist)">EERSTVOLGENDE</p>
+          <div class="mt-1.5 flex items-baseline justify-between gap-x-4">
+            <p class="text-lg font-semibold text-(--color-ink)">Foarwedstryd, Langwar</p>
+            <p class="font-mono text-sm text-(--color-orange-2) tabular-nums">27 jun</p>
+          </div>
+        </div>
+
+        <ul role="list" class="mt-4 flex-1 divide-y divide-(--color-rule)">
+          <li class="flex items-center gap-x-4 py-2.5"><span class="w-16 shrink-0 font-mono text-sm text-(--color-mist) tabular-nums">18 jul</span><span class="flex-1 text-sm font-medium text-(--color-ink)">Grou</span><span class="rounded bg-(--color-orange) px-1.5 py-0.5 font-mono text-[0.625rem] text-white">START</span></li>
+          <li class="flex items-center gap-x-4 py-2.5"><span class="w-16 shrink-0 font-mono text-sm text-(--color-mist) tabular-nums">20 jul</span><span class="flex-1 text-sm text-(--color-ink)">De Veenhoop</span></li>
+          <li class="flex items-center gap-x-4 py-2.5"><span class="w-16 shrink-0 font-mono text-sm text-(--color-mist) tabular-nums">21 jul</span><span class="flex-1 text-sm text-(--color-ink)">Earnewâld</span></li>
+          <li class="flex items-center gap-x-4 py-2.5"><span class="w-16 shrink-0 font-mono text-sm text-(--color-mist) tabular-nums">22 jul</span><span class="flex-1 text-sm text-(--color-ink)">Terherne</span></li>
+          <li class="flex items-center gap-x-4 py-2.5"><span class="w-16 shrink-0 font-mono text-sm text-(--color-mist) tabular-nums">23 jul</span><span class="flex-1 text-sm text-(--color-ink)">Langweer</span></li>
+          <li class="flex items-center gap-x-4 py-2.5"><span class="w-16 shrink-0 font-mono text-sm text-(--color-mist) tabular-nums">25 jul</span><span class="flex-1 text-sm text-(--color-ink)">Stavoren</span></li>
+          <li class="flex items-center gap-x-4 py-2.5"><span class="w-16 shrink-0 font-mono text-sm text-(--color-orange-2) tabular-nums">31 jul</span><span class="flex-1 text-sm font-medium text-(--color-ink)">Sneek</span><span class="rounded border border-(--color-rule) px-1.5 py-0.5 font-mono text-[0.625rem] text-(--color-mist)">FINALE</span></li>
+        </ul>
+        <a href="#" class="mt-5 inline-flex items-center gap-x-2 text-sm font-semibold text-(--color-blue) hover:text-(--color-blue-deep)">Alle 11 wedstrijden en na-seizoen
+          <svg viewBox="0 0 16 16" class="size-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 8h10m0 0L9 4m4 4L9 12"/></svg>
+        </a>
+      </div>
+
+      <!-- NIEUWS CARD -->
+      <div id="nieuws" class="flex flex-col rounded-3xl bg-(--color-paper) p-7 ring-1 ring-(--color-rule) sm:p-8">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-x-3">
+            <span class="flex size-9 items-center justify-center rounded-full bg-(--color-orange)/12"><svg viewBox="0 0 16 16" class="size-4 stroke-(--color-orange-2)" fill="none" stroke-width="1.5" aria-hidden="true"><rect x="2.5" y="3" width="11" height="10" rx="1.5"/><path d="M5 6h6M5 8.5h6M5 11h3.5"/></svg></span>
+            <h2 class="text-xl font-semibold tracking-tight text-(--color-ink)">Laatste nieuws</h2>
+          </div>
+          <a href="#" class="font-mono text-xs text-(--color-blue) hover:text-(--color-blue-deep)">ALLES</a>
+        </div>
+
+        <a href="#" class="group mt-5 block">
+          <div class="overflow-hidden rounded-2xl"><img src="assets/news-kolk.jpeg" alt="" class="aspect-[16/9] w-full object-cover transition duration-300 group-hover:scale-105"></div>
+          <p class="mt-3 font-mono text-xs text-(--color-orange-2)">09 APR 2026</p>
+          <p class="mt-1 text-lg font-semibold text-(--color-ink) group-hover:text-(--color-blue)">Oeral Thús weer uit de Kolk</p>
+        </a>
+
+        <ul role="list" class="mt-5 flex-1 divide-y divide-(--color-rule)">
+          <li>
+            <a href="#" class="group flex items-center gap-x-4 py-3">
+              <div class="size-16 shrink-0 overflow-hidden rounded-xl"><img src="assets/sail-2.jpg" alt="" class="size-full object-cover"></div>
+              <div class="min-w-0 flex-1">
+                <p class="font-mono text-xs text-(--color-orange-2)">04 MRT 2026</p>
+                <p class="truncate text-sm font-medium text-(--color-ink) group-hover:text-(--color-blue)">Wedstrijdkalender 2026 bekend</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="group flex items-center gap-x-4 py-3">
+              <div class="size-16 shrink-0 overflow-hidden rounded-xl"><img src="assets/sail-3.jpg" alt="" class="size-full object-cover"></div>
+              <div class="min-w-0 flex-1">
+                <p class="font-mono text-xs text-(--color-orange-2)">01 AUG 2025</p>
+                <p class="truncate text-sm font-medium text-(--color-ink) group-hover:text-(--color-blue)">Jouster Skûtsje pakt derde plek</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHIP -->
+  <section id="schip" class="mx-auto max-w-7xl px-6 py-8 lg:px-8">
+    <div class="grid items-center gap-8 rounded-3xl bg-(--color-paper) p-7 ring-1 ring-(--color-rule) sm:p-10 lg:grid-cols-[1.2fr_1fr]">
+      <div>
+        <p class="eyebrow text-(--color-orange-2)">Wat is skûtsjesilen</p>
+        <h2 class="mt-3 max-w-[20ch] text-3xl/[1.05] font-semibold tracking-tight text-balance text-(--color-ink) sm:text-4xl/[1.05]">Een eeuwenoude Friese zeilsport.</h2>
+        <p class="mt-5 max-w-[58ch] text-base/7 text-pretty text-(--color-mist)">Skûtsjes zijn historische Friese platbodems die ooit turf en goederen vervoerden. Al ruim 180 jaar strijden ze in zeilwedstrijden. In het SKS kampioenschap varen alleen schippers uit de oude Friese schippersfamilies. Oeral Thús vaart voor Joure.</p>
+        <dl class="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <div class="rounded-2xl bg-(--color-sky) p-4"><dt class="font-mono text-xs text-(--color-mist)">GEBOUWD</dt><dd class="mt-1 text-2xl font-semibold text-(--color-ink) tabular-nums">1924</dd></div>
+          <div class="rounded-2xl bg-(--color-sky) p-4"><dt class="font-mono text-xs text-(--color-mist)">ZEIL</dt><dd class="mt-1 text-2xl font-semibold text-(--color-ink) tabular-nums">178m²</dd></div>
+          <div class="rounded-2xl bg-(--color-sky) p-4"><dt class="font-mono text-xs text-(--color-mist)">TRADITIE</dt><dd class="mt-1 text-2xl font-semibold text-(--color-ink) tabular-nums">180jr</dd></div>
+          <div class="rounded-2xl bg-(--color-sky) p-4"><dt class="font-mono text-xs text-(--color-mist)">2025</dt><dd class="mt-1 text-2xl font-semibold text-(--color-orange-2) tabular-nums">3e</dd></div>
+        </dl>
+      </div>
+      <div class="aspect-[4/3] overflow-hidden rounded-2xl"><img src="assets/sail-2.jpg" alt="De thuiskomst van Oeral Thús in Joure" class="size-full object-cover"></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="mx-auto max-w-7xl px-6 py-8 pb-16 lg:px-8">
+    <div class="flex flex-col items-start gap-y-6 rounded-3xl bg-(--color-blue) p-8 text-white sm:flex-row sm:items-center sm:justify-between sm:p-10">
+      <div>
+        <h2 class="max-w-[24ch] text-2xl font-semibold tracking-tight text-balance sm:text-3xl">Steun het skûtsje. Word lid van de Club van 100.</h2>
+        <p class="mt-2 max-w-[48ch] text-sm/6 text-white/80">Met jouw bijdrage blijft Oeral Thús varen, seizoen na seizoen.</p>
+      </div>
+      <a href="#" class="inline-flex shrink-0 items-center gap-x-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-(--color-blue-deep) hover:bg-white/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Word lid
+        <svg viewBox="0 0 16 16" class="size-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 8h10m0 0L9 4m4 4L9 12"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-(--color-rule) bg-(--color-paper)">
+    <div class="mx-auto max-w-7xl px-6 py-14 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-[1.6fr_1fr_1fr_1fr]">
+        <div>
+          <img src="assets/logo.png" alt="Oeral Thús, Jouster Skûtsje" class="h-7 w-auto">
+          <p class="mt-5 max-w-[40ch] text-sm/6 text-(--color-mist)">Het Jouster skûtsje Oeral Thús. Honderd jaar Fries zeilerfgoed, varend in het SKS kampioenschap.</p>
+        </div>
+        <div>
+          <p class="eyebrow text-(--color-orange-2)">Volg</p>
+          <ul role="list" class="mt-4 space-y-3 text-sm">
+            <li><a href="#agenda" class="font-normal text-(--color-mist) hover:text-(--color-ink)">Agenda</a></li>
+            <li><a href="#nieuws" class="font-normal text-(--color-mist) hover:text-(--color-ink)">Nieuws</a></li>
+            <li><a href="#schip" class="font-normal text-(--color-mist) hover:text-(--color-ink)">Het schip</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow text-(--color-orange-2)">Steun</p>
+          <ul role="list" class="mt-4 space-y-3 text-sm">
+            <li><a href="#" class="font-normal text-(--color-mist) hover:text-(--color-ink)">Sponsoring</a></li>
+            <li><a href="#" class="font-normal text-(--color-mist) hover:text-(--color-ink)">Club van 100</a></li>
+            <li><a href="#" class="font-normal text-(--color-mist) hover:text-(--color-ink)">Merchandise</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow text-(--color-orange-2)">Contact</p>
+          <ul role="list" class="mt-4 space-y-3 text-sm">
+            <li><a href="mailto:info@jousterskutsje.nl" class="font-normal text-(--color-mist) hover:text-(--color-ink)">info@jousterskutsje.nl</a></li>
+            <li class="text-(--color-mist)">Joure, Fryslân</li>
+          </ul>
+        </div>
+      </div>
+      <p class="mt-12 border-t border-(--color-rule) pt-6 font-mono text-xs text-(--color-mist)">&copy; 2026 Stichting Jouster Skûtsje Oeral Thús</p>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
